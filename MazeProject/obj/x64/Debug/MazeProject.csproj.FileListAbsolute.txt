@@ -1,0 +1,16 @@
+C:\Users\L\Desktop\Visual Studio\MazeProject\MazeProject\bin\x64\Debug\MazeProject.exe.config
+C:\Users\L\Desktop\Visual Studio\MazeProject\MazeProject\bin\x64\Debug\MazeProject.exe
+C:\Users\L\Desktop\Visual Studio\MazeProject\MazeProject\bin\x64\Debug\MazeProject.pdb
+C:\Users\L\Desktop\Visual Studio\MazeProject\MazeProject\obj\x64\Debug\MazeProject.LevelFive.resources
+C:\Users\L\Desktop\Visual Studio\MazeProject\MazeProject\obj\x64\Debug\MazeProject.LevelFour.resources
+C:\Users\L\Desktop\Visual Studio\MazeProject\MazeProject\obj\x64\Debug\MazeProject.LevelOne.resources
+C:\Users\L\Desktop\Visual Studio\MazeProject\MazeProject\obj\x64\Debug\MazeProject.LevelSelect.resources
+C:\Users\L\Desktop\Visual Studio\MazeProject\MazeProject\obj\x64\Debug\MazeProject.LevelSelectOptions.resources
+C:\Users\L\Desktop\Visual Studio\MazeProject\MazeProject\obj\x64\Debug\MazeProject.LevelThree.resources
+C:\Users\L\Desktop\Visual Studio\MazeProject\MazeProject\obj\x64\Debug\MazeProject.LevelTwo.resources
+C:\Users\L\Desktop\Visual Studio\MazeProject\MazeProject\obj\x64\Debug\MazeProject.MainMenu.resources
+C:\Users\L\Desktop\Visual Studio\MazeProject\MazeProject\obj\x64\Debug\MazeProject.Options.resources
+C:\Users\L\Desktop\Visual Studio\MazeProject\MazeProject\obj\x64\Debug\MazeProject.Properties.Resources.resources
+C:\Users\L\Desktop\Visual Studio\MazeProject\MazeProject\obj\x64\Debug\MazeProject.csproj.GenerateResource.Cache
+C:\Users\L\Desktop\Visual Studio\MazeProject\MazeProject\obj\x64\Debug\MazeProject.exe
+C:\Users\L\Desktop\Visual Studio\MazeProject\MazeProject\obj\x64\Debug\MazeProject.pdb

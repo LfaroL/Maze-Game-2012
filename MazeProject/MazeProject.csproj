@@ -1,0 +1,273 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{019769A3-1476-4A37-9A82-6D76FB8008A2}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>MazeProject</RootNamespace>
+    <AssemblyName>MazeProject</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <TargetFrameworkProfile>Client</TargetFrameworkProfile>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
+    <PlatformTarget>x64</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>1</WarningLevel>
+    <UseVSHostingProcess>true</UseVSHostingProcess>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <UseVSHostingProcess>true</UseVSHostingProcess>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup>
+    <StartupObject>
+    </StartupObject>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|x64'">
+    <DebugSymbols>true</DebugSymbols>
+    <OutputPath>bin\x64\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <WarningLevel>1</WarningLevel>
+    <DebugType>full</DebugType>
+    <PlatformTarget>x64</PlatformTarget>
+    <ErrorReport>prompt</ErrorReport>
+    <CodeAnalysisRuleSet>MinimumRecommendedRules.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Release|x64'">
+    <OutputPath>bin\x64\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <Optimize>true</Optimize>
+    <DebugType>pdbonly</DebugType>
+    <PlatformTarget>x64</PlatformTarget>
+    <ErrorReport>prompt</ErrorReport>
+    <CodeAnalysisRuleSet>MinimumRecommendedRules.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="LevelFive.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="LevelFive.Designer.cs">
+      <DependentUpon>LevelFive.cs</DependentUpon>
+    </Compile>
+    <Compile Include="LevelFour.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="LevelFour.Designer.cs">
+      <DependentUpon>LevelFour.cs</DependentUpon>
+    </Compile>
+    <Compile Include="LevelOne.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="LevelOne.Designer.cs">
+      <DependentUpon>LevelOne.cs</DependentUpon>
+    </Compile>
+    <Compile Include="LevelSelect.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="LevelSelect.Designer.cs">
+      <DependentUpon>LevelSelect.cs</DependentUpon>
+    </Compile>
+    <Compile Include="LevelSelectOptions.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="LevelSelectOptions.Designer.cs">
+      <DependentUpon>LevelSelectOptions.cs</DependentUpon>
+    </Compile>
+    <Compile Include="LevelThree.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="LevelThree.Designer.cs">
+      <DependentUpon>LevelThree.cs</DependentUpon>
+    </Compile>
+    <Compile Include="LevelTwo.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="LevelTwo.Designer.cs">
+      <DependentUpon>LevelTwo.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MainMenu.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MainMenu.Designer.cs">
+      <DependentUpon>MainMenu.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Options.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Options.Designer.cs">
+      <DependentUpon>Options.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="LevelFive.resx">
+      <DependentUpon>LevelFive.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="LevelFour.resx">
+      <DependentUpon>LevelFour.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="LevelOne.resx">
+      <DependentUpon>LevelOne.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="LevelSelect.resx">
+      <DependentUpon>LevelSelect.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="LevelSelectOptions.resx">
+      <DependentUpon>LevelSelectOptions.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="LevelThree.resx">
+      <DependentUpon>LevelThree.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="LevelTwo.resx">
+      <DependentUpon>LevelTwo.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MainMenu.resx">
+      <DependentUpon>MainMenu.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Options.resx">
+      <DependentUpon>Options.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <None Include="app.config" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Border.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Wall.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Back.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Exit.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\LevelSelect.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\NewGame.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Options.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Play.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Resume.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Track1.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ClownBack.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ClownFront.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ClownLeft.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ClownRight.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ZorroFront.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ZorroLeft.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ZorroRight.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ZorroBack.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Finish.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Crate.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Dot.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Reset.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\LevelFive.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\LevelFour.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\LevelOne.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\LevelThree.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\LevelTwo.png" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <PropertyGroup>
+    <PreBuildEvent>
+    </PreBuildEvent>
+  </PropertyGroup>
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

@@ -68,8 +68,7 @@
             // 
             // LevelSelect
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
-            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.None;
             this.BackColor = System.Drawing.SystemColors.Info;
             this.BackgroundImage = global::MazeProject.Properties.Resources.Border;
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
@@ -81,7 +80,9 @@
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
             this.Margin = new System.Windows.Forms.Padding(4);
             this.MaximizeBox = false;
+            this.MinimizeBox = false;
             this.Name = "LevelSelect";
+            this.ShowInTaskbar = false;
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "LevelSelect";
             this.ResumeLayout(false);

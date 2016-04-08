@@ -117,5 +117,10 @@ namespace MazeProject
         {
             Application.Exit();
         }
+
+        private void Options_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }
